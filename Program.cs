@@ -11,7 +11,7 @@ namespace Calculadora
                 do
                 {
                    Console.Clear();
-                   Console.WriteLine("<------Operações------>");
+                   Console.WriteLine("---Operações---");
                    Console.WriteLine("Subtrair: -");
                    Console.WriteLine("Somar: +");
                    Console.WriteLine("Dividir: /");
@@ -99,10 +99,10 @@ namespace Calculadora
 
             Console.Clear();
 
-            Console.Write("Digite o 1ºValor: ");
+            Console.Write("Digite o primeiro Valor: ");
             x1 = double.Parse(Console.ReadLine());
 
-            Console.Write("Digite o 2ºValor: ");
+            Console.Write("Digite o segundo Valor: ");
             x2 = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
@@ -116,10 +116,10 @@ namespace Calculadora
 
             Console.Clear();
 
-            Console.Write("Digite o 1ºValor: ");
+            Console.Write("Digite o primeiro Valor: ");
             x1 = double.Parse(Console.ReadLine());
 
-            Console.Write("Digite o 2ºValor: ");
+            Console.Write("Digite o segundo Valor: ");
             x2 = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
@@ -133,10 +133,10 @@ namespace Calculadora
 
             Console.Clear();
 
-            Console.Write("Digite o 1ºValor: ");
+            Console.Write("Digite o primiero Valor: ");
             x1 = double.Parse(Console.ReadLine());
 
-            Console.Write("Digite o 2ºValor: ");
+            Console.Write("Digite o segundo Valor: ");
             x2 = double.Parse(Console.ReadLine());
 
             if (x2 == 0)
@@ -156,10 +156,10 @@ namespace Calculadora
 
             Console.Clear();
 
-            Console.Write("Digite o 1ºValor: ");
+            Console.Write("Digite o primeiro Valor: ");
             x1 = double.Parse(Console.ReadLine());
 
-            Console.Write("Digite o 2ºValor: ");
+            Console.Write("Digite o segundo Valor: ");
             x2 = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
@@ -186,10 +186,10 @@ namespace Calculadora
 
             Console.Clear();
 
-            Console.Write("Digite o 1ºValor: ");
+            Console.Write("Digite o primeiro Valor: ");
             x1 = double.Parse(Console.ReadLine());
 
-            Console.Write("Digite o 2ºValor: ");
+            Console.Write("Digite o segundo Valor: ");
             x2 = double.Parse(Console.ReadLine());
 
             Console.WriteLine();
@@ -202,7 +202,7 @@ namespace Calculadora
         {
                     Console.Clear();
 
-                    Console.WriteLine("Escola: Etec Adolpho berezin ");
+                    Console.WriteLine("Escola: Etec Adolpho Berezin ");
                     Console.WriteLine("Progamador: Allan Santos");
                     Console.WriteLine("Materia P.C. 1");
                     Console.WriteLine("Projeto final ");
